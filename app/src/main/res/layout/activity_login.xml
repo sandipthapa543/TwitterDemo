@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/twitterlogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in to Twitter"
+        android:textColor="@color/textBlack"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number or email address"
+        android:textSize="20sp"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:paddingTop="30dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorTwitter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password"
+        android:textColor="@color/colorTwitter"/>
+
+
+
+
+</LinearLayout>

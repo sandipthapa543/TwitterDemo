@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/twitterlogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create your account"
+        android:textColor="@color/textBlack"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/imgProfile"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/noimage" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:paddingTop="80dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number or email address"
+        android:textSize="20sp"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:paddingTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorTwitter"/>
+
+    <TextView
+        android:id="@+id/btnlogs"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textBlack"
+        android:text="Have account? log in"/>
+
+
+</LinearLayout>
